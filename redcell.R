@@ -1,0 +1,6 @@
+redcell<-read.table("redcell.txt,	header=T)
+names(redcell)
+is.factor(redcell$ventilation)
+plot(folate~ventilation,	data=redcell)
+model<-1m(folate~ventilation,	data=redcell)
+summary(model)
